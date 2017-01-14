@@ -108,7 +108,8 @@
 %-------------------------------------------------------------------------------
 %% Page Layout
 % Configure page margins with geometry
-\geometry{left=2.0cm, top=1.5cm, right=2.0cm, bottom=2.0cm, footskip=.5cm}
+% \geometry{left=2.0cm, top=1.5cm, right=2.0cm, bottom=2.0cm, footskip=.5cm}
+\geometry{left=1.0cm, top=1.0cm, right=1.0cm, bottom=1.0cm, footskip=0cm}
 
 %% Header & Footer
 % Set offset to each header and offset
@@ -513,7 +514,8 @@
 % Define a section for CV
 % Usage: \cvsection{<section-title>}
 \newcommand{\cvedusection}[1]{
-  \par\addvspace{1.5ex}
+%  \par\addvspace{1.5ex}
+  \par\addvspace{0.5ex}
   \phantomsection{}
   \sectionstyle{#1}
   \color{gray}\vhrulefill{0.9pt}
@@ -523,7 +525,8 @@
 % Define a section for CV
 % Usage: \cvsection{<section-title>}
 \newcommand{\cvsection}[1]{
-  \par\addvspace{1.5ex}
+%  \par\addvspace{1.5ex}
+  \par\addvspace{0.5ex}
   \phantomsection{}
   \sectionstyle{#1}
   \color{gray}\vhrulefill{0.9pt}
@@ -642,7 +645,8 @@
 % Define a paragraph for cvletter
 % Usage: \cvparagraph{<paragraph-title>}
 \newcommand{\cvparagraph}[1]{
-  \par\addvspace{2.5ex}
+%  \par\addvspace{2.5ex}
+  \par\addvspace{1.5ex}
   \phantomsection{}
   \paragraphstyle{#1}
   \color{gray}\vhrulefill{0.9pt}
