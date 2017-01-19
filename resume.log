@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100) (preloaded format=xelatex 2017.1.11)  18 JAN 2017 23:06
+This is XeTeX, Version 3.14159265-2.6-0.99996 (MiKTeX 2.9.6100) (preloaded format=xelatex 2017.1.11)  19 JAN 2017 14:11
 entering extended mode
 **C:/Users/User/Documents/GitHub/cv/SoftwareEngineerLatexResume/resume.tex
 (C:/Users/User/Documents/GitHub/cv/SoftwareEngineerLatexResume/resume.tex
@@ -707,14 +707,14 @@ LaTeX Info: Redefining \selectfont on input line 58.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(28.45274pt, 557.38951pt, 28.45274pt)
-* v-part:(T,H,B)=(7.11317pt, 780.74364pt, 7.11317pt)
+* v-part:(T,H,B)=(39.83368pt, 726.68356pt, 28.45274pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=557.38951pt
-* \textheight=780.74364pt
+* \textheight=726.68356pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
-* \topmargin=-102.15681pt
+* \topmargin=-69.43631pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -790,8 +790,8 @@ LaTeX Font Warning: Font shape `EU1/AbrilFatface(0)/bx/n' undefined
 (Font)              using `EU1/AbrilFatface(0)/m/n' instead on input line 60.
 
 ! TeX capacity exceeded, sorry [input stack size=5000].
-\@nomath ...e \@font@warning {Command \noexpand #1
-                                                  invalid in math mode}\fi 
+\Hy@href {->\hyper@normalise 
+                             \href@ {
 l.60 \makecvheader
                   
 If you really absolutely need more capacity,
@@ -800,10 +800,10 @@ you can ask a wizard to enlarge me.
  
 Here is how much of TeX's memory you used:
  27937 strings out of 428408
- 478440 string characters out of 3159511
- 596364 words of memory out of 3000000
+ 478484 string characters out of 3159511
+ 881216 words of memory out of 3000000
  31139 multiletter control sequences out of 15000+200000
  4516 words of font info for 51 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 5000i,1n,7493p,10461b,267s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 5000i,1n,6661p,10461b,267s stack positions out of 5000i,500n,10000p,200000b,50000s
 No pages of output.
