@@ -416,7 +416,7 @@
       \ifthenelse{\isundefined{\@mobile}}
         {}
         {
-          \faMobile\ \@mobile
+          {\large\faMobile}\ \@mobile
           \setbool{isstart}{false}
         }
       \ifthenelse{\isundefined{\@email}}
@@ -427,7 +427,7 @@
               \setbool{istart}{false} 
             }
             {\@headersocialsep}
-          \href{mailto:\@email}{\faEnvelope\ \@email}
+          \href{mailto:\@email}{{\normalsize\faEnvelope}\ \@email}
         }
       \ifthenelse{\isundefined{\@homepage}}
         {}
@@ -437,7 +437,7 @@
               \setbool{istart}{false} 
             }
             {\@headersocialsep}
-          \href{http://\@homepage}{\faHome\ \@homepage}
+          \href{http://\@homepage}{{\large\faHome}\ \@homepage}
         }
       \ifthenelse{\isundefined{\@github}}
         {}
@@ -447,7 +447,7 @@
               \setbool{istart}{false} 
             }
             {\@headersocialsep}
-          \href{https://github.com/\@github}{\faGithubSquare\ \@github}
+          \href{https://github.com/\@github}{{\large\faGithubSquare}\ \@github}
         }
       \ifthenelse{\isundefined{\@stackoverflowid}}
         {}
@@ -467,7 +467,7 @@
               \setbool{istart}{false} 
             }
             {\@headersocialsep}
-          \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedinSquare\ \@linkedin}
+          \href{https://www.linkedin.com/in/\@linkedin}{{\large\faLinkedinSquare}\ \@linkedin}
         }
       \ifthenelse{\isundefined{\@twitter}}
         {}
